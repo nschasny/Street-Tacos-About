@@ -1,0 +1,1493 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@500&family=Lexend:wght@500&family=Mooli&family=Yanone+Kaffeesatz:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@500&family=Lexend:wght@500&family=Montserrat&family=Mooli&family=Yanone+Kaffeesatz:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@500&family=Lexend:wght@500&family=Montserrat:wght@400;700&family=Mooli&family=Yanone+Kaffeesatz:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@500&family=Lexend:wght@500&family=Montserrat:ital,wght@0,400;0,700;1,400&family=Mooli&family=Yanone+Kaffeesatz:wght@400;500;600;700&display=swap');
+
+html{
+
+  margin: 0;
+  padding: 0;
+  height: 2600PX;
+  background-image: url('images/FUN.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.logo{
+
+background-color: #EB5428;
+padding: 20px;
+
+}
+
+header{
+
+background-color: white;
+height:100px;
+box-shadow: 1px 4px 4px rgba(0, 0, 10, 0.2);
+}
+
+
+
+body{
+  
+margin: 0 auto;
+width: 1280px;
+background:#ffffff;
+height: 2400px;
+overflow-x: hidden;
+}
+
+
+h1{
+
+  font-family: Bebas Neue;
+  margin-top: 70px;
+  text-align: center;
+
+}
+
+.headerimages ul {
+  position: relative;
+  bottom:40px;
+  display: flex;
+  list-style: none;
+  text-align: center;
+
+
+  
+}
+
+header input {
+
+  visibility: hidden;
+
+}
+
+
+.headerimages label { 
+  visibility: hidden;
+}
+ .headerimages img{
+  margin-right:-100px;
+  position: relative;
+  bottom:200px;
+  left:70px;
+    scale: 28%;
+    z-index: 10;
+
+}
+
+.headerimages svg{
+  
+  position: relative;
+  bottom:100px;
+  left: 100px;
+  
+
+}
+
+.headerimages li .signup{
+  display: block;
+  text-align: center;
+  position: relative;
+  bottom:100px;
+  left: 100px;
+  color: #000000;
+  
+
+}
+
+.move {
+
+  position: relative;
+  left:70px;
+ 
+
+}
+
+.recipe2 {
+  font-family: Montserrat;
+}
+
+
+.headerimages  span {
+  display: block;
+  justify-content: space-around;
+  position: relative;
+  left:120px;
+bottom:280px;
+  text-align: center;
+    text-transform: uppercase;
+    color:#EB5428;
+    font-size: 14px;
+    font-family:Bebas Neue;
+    font-weight: 400;
+} 
+
+.logo{
+color: #FF5733;
+
+}
+
+    main .wrap{
+
+        display: flex;
+        position: relative;
+        top:50px;
+    justify-content: center;
+    align-items: center;
+
+    }
+
+    .search {
+        width: 300px;
+        position: relative;
+        display: flex;
+        z-index: 1000;
+      }
+      
+      .searchTerm {
+        width: 100%;
+        border: 3px solid #EB5428;
+        border-right: none;
+        padding: 5px;
+        height: 30px;
+        outline: none;
+        color: #000000;
+        font-size: 16px;
+        z-index: 10002;
+      }
+      
+      .searchTerm:focus{
+        color: #000000;
+      }
+      
+      .searchButton {
+        width: 50px;
+        height: 45.5px;
+        border: 1px solid #EB5428;
+        background: #EB5428;
+        text-align: center;
+        color: #fff;
+        cursor: pointer;
+        font-size: 20px;
+      }
+
+      
+      menu{
+        position: relative;
+        top:16px;
+        padding: 10px;
+        width:100px;
+        height:700px;
+        background-color: #ffff;
+        border: 2px solid #EB5428;
+
+      }
+
+      menu li {
+        margin-top: 40px;
+        list-style: none;
+        z-index: 10;
+        margin-left: 20px;
+      
+      }
+
+     menu button {
+
+      background: none;
+      border: none;
+      box-shadow: none
+
+     }
+
+
+     menu button:hover {
+
+      
+      cursor: pointer;
+
+     }
+
+      main span{
+
+      position: relative;
+      top:5px;
+      display: block;
+      left: 13px;
+      font-family:Bebas Neue;
+      font-size: 16px;
+      text-transform: uppercase;
+      color:#EB5428;
+      
+
+    }
+
+   .tacoimage img{
+    position: relative;
+    bottom: 724px;
+    left:124px;
+    width:520px;
+    height: 724px;
+    
+    }
+
+
+    #description{
+      position: relative;
+      left: 660px;
+      bottom:1460px;
+      text-align: left;
+      width: 46%;
+      font-size:16px;
+      font-family: Montserrat;
+      font-weight: 400;
+      
+    }
+
+
+    #details{
+      position: relative;
+      bottom: 960px;
+      background-color: #0D0D0D;
+      color:rgb(21, 175, 134);
+    }
+
+    #details h2{
+
+    font-family: Bebas Neue;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+      text-transform: uppercase;
+    }
+
+
+    #details dl { 
+      display: inline-block;
+      justify-content: space-between;
+      text-align:center;
+      margin-left: 90px;
+    }
+
+    dt {
+      font-family: Montserrat;
+      font-weight: 700;
+      font-size: 16px;
+      text-align: center;
+
+    }
+
+    dd {
+
+      font-family: Montserrat;
+      font-weight: 400;
+      font-size: 16px;
+      right:18px;
+
+    }
+
+    ol li {
+      margin-bottom: 20px; 
+  }
+
+    dt, dd {
+      position: relative;
+      bottom: 10px;
+    }
+
+   .ingredients {
+    position: relative;
+    bottom:980px;
+   }
+
+   .ingredients h2 {
+    position: relative;
+    left:50px;
+    font-size: 30px;
+    font-family: Bebas Neue;
+   }
+
+   .ingredients ul {
+    text-align: left;
+   
+   }
+
+   .ingredients li{
+    margin-bottom:10px;
+    font-size: 16px;
+    font-family: Montserrat;
+   }
+
+
+   #directions {
+    
+    position: relative;
+    bottom: 1380px;
+    margin-left: 600px;
+   }
+
+   #directions h2 {
+    position: relative;
+    left:70px;
+    bottom:5px;
+    font-size: 30px;
+    font-family: Bebas Neue;
+   }
+
+  #directions ol {
+    position: relative;
+    right:340px;
+    width:950px;
+    font-family: Montserrat ;
+  }
+
+  #sidedishes {
+    
+    position: relative;
+    top: -1210px;
+    background-color: #7ABFBF;
+    margin-right:auto;
+    margin-left:auto;
+  }
+
+  #sidedishes DIV{
+
+    display: inline-block;
+    margin-left:60px;
+  }
+
+  #sidedishes h2 {
+   text-align: center;
+   padding-top: 15px;
+   font-family: Bebas Neue;
+   font-size: 30px;
+  }
+
+  #sidedishes .rating{
+    position: relative;
+    bottom:4px;
+    left:-10px;
+    display: inline-block;
+    font-weight: bold;
+    font-family: Montserrat;
+  }
+
+  .staricon {
+    fill: #FF5733;
+    position:static;
+    bottom:3px;
+    left:5px;
+  }
+
+  .trd {
+
+    transform: translateY(-20px);
+
+  }
+
+
+
+  .staricon:nth-child(9) {
+    fill: #ffff;
+    position:static;
+    bottom:3px;
+    left:5px;
+  }
+
+ 
+
+  .staricon2 {
+    fill: #FF5733;
+    position:static;
+    bottom:3px;
+    left:5px;
+  }
+
+  #sidedishes .recipe {
+    width:75%;
+    font-family: Montserrat;
+  
+  }
+
+  #sidedishes .nd{
+    position: static;
+    bottom:20px;
+    font-family: Montserrat;
+  }
+
+  #sidedishes .rd{
+    position: static;
+    bottom:20px;
+    font-family: Montserrat;
+  }
+
+
+  h3 {
+    font-size: 25px;
+    font-family: Bebas Neue;
+  }
+
+  footer{
+    position: relative;
+    bottom:1210px;
+    background-color:rgb(255, 255, 255);
+    height:520px;
+    font-size: 20px;
+
+
+  }
+
+  footer img {
+    position: relative;
+    top:60px;
+    left:20px;
+    width:15%;
+
+  }
+
+  .trd svg{
+
+    transform: translateY(20px);
+
+  }
+
+  .trd .rating {
+
+    transform: translateY(20px);
+
+  }
+
+  footer p { 
+    position: relative;
+    font-size: 20px;;
+    left:230px;
+    text-align: center;
+    width:8%;
+    line-height: 0.9;
+    font-family:Bebas Neue;
+    font-weight: 700;
+    bottom:130px;
+  }
+
+  #socialm ul {
+    display: flex;
+    text-align: center;
+    position: relative;
+    bottom:200px;
+    margin-left:800px;
+  }
+  #socialm li {
+
+    list-style: none;
+    margin-left: 20px;
+    font-size: 16px;
+  }
+
+  #socialm svg {
+    position: relative;
+    left:10px;
+  }
+
+  #socialm span {
+    margin-left: 20px;
+    position: relative;
+    display: block;
+    font-family:Bebas Neue;
+      font-size: 16px;
+      text-transform: uppercase;
+      color:#EB5428;
+    
+  }
+  
+  @media screen and (max-width: 1268px){
+
+
+    
+    body{
+      margin-bottom: 0px;
+      margin: 0 auto;
+      width: 600px;
+      height:2600px;
+      overflow-x: hidden;
+
+    }
+    
+
+    header input {
+
+      visibility: hidden;
+
+    }
+
+
+    .headerimages label { 
+      visibility: hidden;
+    }
+
+    header{
+      
+      background-color: white;
+      height:150px;
+      box-shadow: 1px 4px 4px rgba(0, 0, 10, 0.2);
+
+      }
+
+      .logo{
+
+        background-color: #EB5428;
+        padding: 10px;
+        width: 5%;
+        height: 50%;
+        
+        }
+
+
+        .headerimages img{
+          margin-right:-150px;
+          position: relative;
+          bottom:90px;
+          left:-110px;
+            scale: 15%;
+            z-index: 10;
+
+      }
+
+        #sidedishes .rating {
+          bottom:4px;
+          left:260px;
+        }
+      
+
+      .headerimages  span {
+        display: block;
+        position: relative;
+        left:-35px;
+        bottom:185px;
+        text-align:center;
+        text-transform: uppercase;
+        color:#EB5428;
+        font-size: 14px;
+        font-family:Bebas Neue;
+        font-weight: 400;
+      } 
+
+      
+
+      main .wrap{
+
+        display: flex;
+        position: relative;
+        left:70px;
+        top:-130px;
+       justify-content: center;
+        align-items: center;
+
+    }
+
+    .searchTerm {
+      width: 200px;
+      border: 3px solid #EB5428;
+      border-right: none;
+      padding: 5px;
+      height: 20px;
+      outline: none;
+      color: #000000;
+      font-size: 16px;
+    }
+
+    .searchButton {
+      width: 50px;
+      height: 36px;
+      border: 1px solid #EB5428;
+      background: #EB5428;
+      text-align: center;
+      color: #fff;
+      cursor: pointer;
+
+    }
+
+    .icon-search {
+      position: relative;
+      bottom:3px;
+      scale:80%;
+    }
+    
+    .move {
+
+      position: relative;
+      left:-195px;
+      top:35px;
+    
+    }
+
+    h1{
+
+      font-family: Bebas Neue;
+      margin-top: 10px;
+      padding: 0px;
+      text-align: left;
+      margin-left: 20px;
+    
+    }
+
+    menu{
+      display: flex;
+      position: relative;
+      top:-1px;
+      padding: 10px;
+      width:580px;
+      height:100px;
+      background-color: rgba(255, 255, 255, 0.7);
+      border:none;
+      z-index: 5;
+
+    }
+
+    menu li {
+      margin-top: 20px;
+      list-style: none;
+      z-index: 10;
+      margin-left: 80px;
+    
+    }
+
+    .tacoimage img{
+      position: relative;
+      top:-137px;
+      left:0px;
+      width:100%;
+      height: 704px;
+      z-index: 1;
+      object-fit: cover;
+      
+
+      
+      }
+
+
+
+    
+
+      #description{
+        position: relative;
+        left: 10px;
+        bottom:150px;
+        text-align: left;
+        width: 85%;
+        font-size:16px;
+        font-family: Montserrat;
+        font-weight: 400;
+        
+      }
+
+      #details{
+
+        position: relative;
+        bottom: 150px;
+        background-color: #ffffff00;
+        color:rgb(0, 0, 0);
+        
+  
+      }
+
+      .ingredients {
+        position: relative;
+        bottom:190px;
+       }
+
+      
+
+
+      #details dl { 
+        display: inline;
+        position: relative;
+        bottom:25px;
+        text-align:left;
+        margin-left: 90px;
+       
+      }
+  
+      dt {
+        position: relative;
+        right:50px;
+        font-family: Montserrat;
+        font-weight: 700;
+        font-size: 16px;
+        text-align: center;
+        margin-bottom:-30px;
+        transform: translateY(-10px);
+  
+      }
+  
+      dd {
+        position: relative;
+        
+        display: flex;
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 16px;
+        left:270px;
+  
+      }
+  
+      dt, dd {
+        position: relative;
+       
+     
+    }
+
+    .author {
+
+      position: relative;
+      right:15px;
+
+    }
+
+    .servings {
+
+      position: relative;
+      left:25px;
+
+    }
+
+    #directions {
+      
+      position: relative;
+      bottom: 600px;
+      margin-left: 530px;
+     }
+
+
+     #directions h2 {
+      position: relative;
+      left:-180px;
+      bottom:-5px;
+      font-size: 30px;
+      font-family: Bebas Neue;
+     }
+  
+    #directions ol {
+      position: relative;
+      right:340px;
+      width:350px;
+      font-family: Montserrat ;
+    }
+
+    ol li {
+      margin-bottom: 20px; 
+  }
+
+    #sidedishes  {
+      display: grid;
+      position: relative;
+      top: -540px;
+      background-color: #7ABFBF;
+      margin-right:auto;
+      margin-left:auto;
+      height:420px;
+      grid-template-columns: 1fr 1fr;
+      font-size: 1.5em;
+
+    }
+
+
+    #sidedishes svg {
+
+      position: relative;
+      left:285px;
+      bottom: 227px;
+
+    }
+
+    #sidedishes h3,p {
+
+      position: relative;
+      left:260px;
+      bottom: 240px;
+
+    }
+  
+
+    #sidedishes div {
+    scale: 50%;
+
+    }
+
+ 
+     .rth {
+
+      position: relative;
+      bottom:330px;
+
+    }
+
+    .trd {
+
+      position: relative;
+      bottom:140px;
+      
+      bottom:320px;
+
+    }
+    #sidedishes DIV{
+
+      display: inline-block;
+      margin-left:-59px;
+    }
+
+    .d {
+
+      position: relative;
+      top:20px;
+      left: 30px;
+
+    }
+  
+  
+    #sidedishes h2 {
+     text-align: center;
+     position: relative;
+     left:140px;
+     padding-top: 15px;
+     font-family: Bebas Neue;
+     font-size: 30px;
+    }
+  
+   .mexrice {
+
+    position: absolute;
+    
+
+   }
+  
+    #sidedishes .rating{
+
+      position: relative;
+      top:-230px;
+      right: 10px;
+      font-weight: bold;
+      font-family: Montserrat;
+    }
+  
+    .staricon {
+      fill: #FF5733;
+
+    }
+  
+  
+  
+    .staricon:nth-child(9) {
+      fill: #ffff;
+
+    }
+  
+   
+  
+    .staricon2 {
+      fill: #FF5733;
+
+    }
+  
+    #sidedishes .recipe {
+    
+      font-family: Montserrat;
+    
+    }
+  
+
+  
+    #sidedishes .rd{
+
+      font-family: Montserrat;
+    }
+  
+  
+    h3 {
+      font-size: 25px;
+      font-family: Bebas Neue;
+    }
+
+
+    footer{
+
+      position: relative;
+      bottom:560px;
+      background-color:rgb(255, 255, 255);
+      height:340px;
+      font-size: 20px;
+  
+    }
+
+    footer p { 
+      position: relative;
+      font-size: 30px;;
+      left:-20px;
+      text-align: center;
+      width: 40%;
+      line-height: 0.9;
+      font-family:Bebas Neue;
+      font-weight: 700;
+      bottom:-40px;
+    }
+
+    footer img {
+      position: relative;
+      top:60px;
+      left:20px;
+      width:25%;
+  
+    }
+
+    #socialm ul {
+      display: flex;
+      text-align: center;
+      position: relative;
+      bottom:160px;
+      margin-left:200px;
+    }
+
+    
+
+  }
+
+  header ul {
+
+    transform: translateY(-50px);
+
+  }
+
+
+  .menuz{
+
+    visibility: hidden;
+
+  }
+
+  #signup {
+
+    visibility: hidden;
+
+  }
+
+  @media screen and (max-width: 614px) {
+
+
+
+    html {
+
+      overflow-x: hidden;
+      height: 3300px;;
+      margin: 0 auto;;
+    }
+
+     body {
+      overflow-y: hidden;
+      width:400px;
+      height:3300px;
+      padding:0px;
+
+
+    }
+    .headerimages img{
+      margin-right:-180px;
+      position: relative;
+      bottom:90px;
+      left:-125px;
+        scale: 17%;
+        z-index: 10;
+    
+    }
+
+    h1 {
+
+      transform: translateY(-90px);
+
+    }
+
+    .searchTerm {
+
+      transform: translateY(-25px);
+
+    }
+
+    .searchButton{
+
+transform: translateY(-25px);
+
+    }
+    .logo{
+      
+      transform: translateX(100px);
+      background-color: #EB5428;
+      padding: 0px;
+      width: 200px;
+      height: 80px;;
+      
+      }
+
+      header{
+
+        background-color: white;
+        height:80px;
+        box-shadow: 1px 4px 4px rgba(0, 0, 10, 0.2);
+        }
+
+        
+
+nav svg:nth-child(1) {
+  cursor: pointer;
+  position: relative;
+  top:5px;
+  transform: translate(-110px,0px);
+
+
+}
+
+.headerimages ul li{
+
+display: flex;
+flex-direction: column;
+z-index: 10042;
+
+
+}
+
+.label {
+
+
+transform: translate(40px,-80px);
+
+
+}
+
+.move {
+
+  visibility: hidden;
+  
+}
+
+
+#signup{
+  visibility: visible;
+  transform: translate(330px,-75px);
+  list-style: none;
+  font-family: Bebas Neue;
+  
+}
+#signup span{
+  visibility: visible;
+  display: block;
+  margin-left: 2px;
+  text-align: left;
+}
+
+
+  .wrap {
+
+    transform: translate( -50px, 250px);
+
+  }
+
+  #formatfile  , .tacoimage , menu{
+
+    transform: translateY(80px);
+
+  }
+
+  h1{
+
+    font-family: Bebas Neue;
+    margin-top: 70px;
+    text-align: center;
+    transform: translateY(-60px);
+  }
+
+
+  menu{
+    display: flex;
+    position: relative;
+    right:10px;
+    top:-130px;
+   
+    padding: 10px;
+    width:580px;
+    height:100px;
+    background:none;
+    border:none;
+    z-index: 5;
+
+  }
+
+  menu li {
+    margin-top: 40px;
+    list-style: none;
+    z-index: 10;
+    margin-left: 40px;
+  
+  }
+
+  #description{
+    position: relative;
+    left: 5px;
+    bottom:70px;
+    text-align: left;
+    width: 85%;
+    font-size:16px;
+    font-family: Montserrat;
+    font-weight: 400;
+    
+  }
+
+  #details{
+
+    position: relative;
+    bottom: 0px;
+    background-color: #ffffff00;
+    color:rgb(0, 0, 0);
+    
+
+  }
+
+  dt {
+    position: relative;
+    left:10px;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom:-30px;
+
+  }
+
+  dt {
+    transform: translateY(-1px);
+  }
+
+  dd {
+    position: relative;
+    
+    display: flex;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 16px;
+    left:70px;
+    top:-1px;
+
+  }
+
+  
+  .ingredients {
+    position: relative;
+    transform: translateY(80px);
+   }
+
+
+  .author {
+
+      left:1px;
+    
+  }
+
+  .tacoimage img {
+    height: 502px;
+  }
+
+  .servings {
+
+    position: relative;
+    left:0px;
+
+  }
+
+  #directions {
+      
+    position: relative;
+    bottom: 20px;
+    margin-left: 330px;
+    width:50%;
+   }
+
+   .ingredients {
+    position: relative;
+    bottom:80px;
+    left:100px;
+   }
+
+   .ingredients ul {
+
+    transform: translate(-115px);
+
+   }
+
+   #menu-icon a{
+    cursor: pointer;
+   }
+
+   #sidedishes  {
+
+    position: relative;
+    transform: translateY(560px);
+    background-color: #7ABFBF;
+    margin-right:auto;
+    margin-left:auto;
+    height:670px;
+
+    font-size: 1.5em;
+
+  }
+
+
+  #sidedishes svg {
+
+    position: relative;
+    left:285px;
+    bottom: 227px;
+
+  }
+
+  #sidedishes h3,p {
+
+    position: relative;
+    left:260px;
+    bottom: 240px;
+
+  }
+
+
+  #sidedishes div {
+  scale: 50%;
+
+  }
+
+
+   .rth {
+
+    position: relative;
+    bottom:85px;
+    left:-300px;
+
+  }
+
+  .trd {
+
+    position: relative;
+
+    
+    left:10px;
+    bottom:197px;
+
+  }
+  #sidedishes DIV{
+
+    display: inline-block;
+    margin-left:-59px;
+  }
+
+  .d {
+
+    position: relative;
+    top:70px;
+    left: 30px;
+
+  }
+
+
+  #sidedishes h2 {
+   text-align: center;
+   position: relative;
+   left:140px;
+   padding-top: 15px;
+   font-family: Bebas Neue;
+   font-size: 30px;
+  }
+
+ .mexrice {
+
+  position: absolute;
+  
+
+ }
+
+ .salsa {
+
+  transform: translate(-599px,245px);
+
+ }
+
+.rating {
+
+position: relative;
+bottom:-10px;
+
+ }
+
+  #sidedishes .rating{
+
+    position: relative;
+    top:-230px;
+    right: 10px;
+    font-weight: bold;
+    font-family: Montserrat;
+  }
+
+  .staricon {
+    fill: #FF5733;
+
+  }
+
+
+
+  .staricon:nth-child(9) {
+    fill: #ffff;
+
+  }
+
+ 
+
+  .staricon2 {
+    fill: #FF5733;
+
+  }
+
+  #sidedishes .recipe {
+    width: 400px;
+    font-family: Montserrat;
+  
+  }
+
+
+
+  #sidedishes .rd{
+
+    font-family: Montserrat;
+  }
+
+  #sidedishes h2 {
+    transform: translateX(-100px);
+    right:140px;
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 30px;
+    width: 300px;
+    margin: 0px;
+    
+ 
+   }
+
+  footer{
+
+    position: relative;
+    bottom:40px;
+    background-color:rgb(255, 255, 255);
+    height:510px;
+    font-size: 20px;
+
+  }
+
+  footer p { 
+    position: relative;
+    font-size: 30px;;
+    left:-20px;
+    text-align: center;
+    width: 40%;
+    line-height: 0.9;
+    font-family:Bebas Neue;
+    font-weight: 700;
+    transform: translate(140px,100px);
+  }
+
+  footer img {
+    position: relative;
+    top:130px;
+    left:110px;
+    width:45%;
+
+  }
+
+  #socialm ul {
+    display: flex;
+    text-align: center;
+    position: relative;
+    bottom:270px;
+    margin-left:80px;
+  }
+  #socialm span {
+    transform: translate(-110px );
+    margin-left: 20px;
+    position: relative;
+    display: block;
+    font-family:Bebas Neue;
+      font-size: 16px;
+      text-transform: uppercase;
+      color:#EB5428;
+    
+  }
+  .custom-label {
+    position: relative;
+    top: -147px;
+    left:40px;
+  }
+
+  header ul {
+    transform: translateY(-90px);
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.4s ease-in-out;
+  }
+  input:checked ~ ul {
+    background-color: rgb(244, 244, 244);
+    max-height: 90px;
+    z-index: 1004440;
+    transition: 0.4s ease-in-out;
+  
+  }
+
+  .menuz {
+    visibility: visible;
+    position: absolute;
+    transform: translate(-164px,55px);
+    font-family: Bebas Neue;
+
+  }
+ header input {
+    display: none;
+  
+  }
+
+  header input {
+
+    visibility: visible;
+  
+  }
+  
+  
+  .headerimages label { 
+    visibility: visible;
+  }
+
+  }
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
